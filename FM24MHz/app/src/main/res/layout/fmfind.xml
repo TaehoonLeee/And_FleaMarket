@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFFFF"
+                tools:context="com.example.fm24mhz.tologin.fmregister">
+
+    <RadioGroup
+            android:id="@+id/radiogroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+        <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:text="판매자"/>
+
+        <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="구매자"/>
+    </RadioGroup>
+
+    <LinearLayout
+            android:id="@+id/findlay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radiogroup1"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true">
+
+        <EditText
+                android:id="@+id/editId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginBottom="20dp"
+                android:hint="ID" />
+
+        <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Email" />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_below="@id/findlay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/btnfind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="찾기" />
+
+        <Button
+                android:id="@+id/btncancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="취소" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

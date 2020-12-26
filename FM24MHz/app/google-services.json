@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613996417218",
+    "firebase_url": "https://fm24mhz.firebaseio.com",
+    "project_id": "fm24mhz",
+    "storage_bucket": "fm24mhz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613996417218:android:d30e66e40e8a7815",
+        "android_client_info": {
+          "package_name": "com.example.fm24mhz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613996417218-ogv4tdbon1baj4shi79em5ddhfafo9rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fm24mhz",
+            "certificate_hash": "85b6a7378c937b6f6de4a010f45484a48f03b530"
+          }
+        },
+        {
+          "client_id": "613996417218-f2rn9ep9iqc42h6kiof2it3bg2e8p8r5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcqqOjw2OOP3IXfKl-OT688ucUBmCHNO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613996417218-f2rn9ep9iqc42h6kiof2it3bg2e8p8r5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

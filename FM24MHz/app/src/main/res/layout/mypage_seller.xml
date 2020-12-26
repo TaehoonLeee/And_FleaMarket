@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".mypage.mypage_seller"
+    android:onClick="linearOnClick">
+
+    <LinearLayout
+        android:id="@+id/mypage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/seller" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/mypagelayout1"
+            android:layout_below="@id/top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:text="이름" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="25sp"
+                android:gravity="end"
+                android:text="USER ID"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mypagelayout2"
+            android:layout_below="@id/mypagelayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:text="이메일" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="25sp"
+                android:gravity="end"
+                android:text="Email"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mypagelayout3"
+            android:layout_below="@id/mypagelayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="사진"
+                />
+
+            <Button
+                android:id="@+id/video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:text="동영상"
+                />
+
+            <Button
+                android:id="@+id/chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="채팅"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mypagelayout4"
+        android:layout_below="@id/mypage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:hint="  댓글"/>
+        <Button
+            android:id="@+id/send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="입력"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/forrecycler"
+        android:layout_below="@id/mypagelayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/mypageRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

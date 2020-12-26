@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFFFF"
+                tools:context="com.example.fm24mhz.tologin.fmregister"
+    android:onClick="linearOnClick">
+    <RadioGroup
+            android:id="@+id/radiogroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+        <RadioButton
+                android:id="@+id/radioButton_reg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:text="판매자"/>
+
+        <RadioButton
+                android:id="@+id/radioButton_reg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="구매자"/>
+    </RadioGroup>
+
+    <LinearLayout
+            android:id="@+id/findlay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/radiogroup2"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:onClick="linearOnClick">
+        <EditText
+                android:id="@+id/editID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginBottom="20dp"
+                android:hint="ID" />
+
+        <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:layout_marginBottom="20dp"
+                android:hint="Email" />
+
+        <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:hint="Password"
+                android:inputType="textPassword" />
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_below="@id/findlay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:onClick="linearOnClick">
+
+        <Button
+                android:id="@+id/btnDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가입" />
+
+        <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="취소" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

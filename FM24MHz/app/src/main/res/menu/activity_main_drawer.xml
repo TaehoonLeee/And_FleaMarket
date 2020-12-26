@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/list"
+            android:title="Mypage" />
+        <item
+            android:id="@+id/nav_FM"
+            android:icon="@drawable/mpa"
+            android:title="FM.24MHz" />
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/calender"
+            android:title="오픈일정" />
+        <item
+            android:id="@+id/nav_top"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="탑 10" />
+        <item
+            android:id="@+id/nav_findID"
+            android:icon="@drawable/fire"
+            android:title="검색" />
+    </group>
+
+    <item android:title="지원">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_share"
+                android:title="고객센터" />
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/ic_menu_send"
+                android:title="개발진" />
+        </menu>
+    </item>
+
+</menu>
