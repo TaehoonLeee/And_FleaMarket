@@ -9,7 +9,7 @@
 - [세부 기능](#세부-기능)  
   - [Firebase를 이용한 데이터베이스 관리](#Firebase를-이용한-데이터베이스-관리)  
   - [장소 예약, 예약된 장소 확인](#Naver-Maps-API를-이용한-장소-예약,-예약된-장소-확인)  
-  - [판매자의 물건 홍보 영상 포스팅](#Youtube-API를-이용한-판매자의-물건-홍보-영상-포스팅(미완))  
+  - [판매자의 물건 홍보 영상 포스팅](#Youtube-API를-이용한-판매자의-물건-홍보-영상-포스팅,미완)  
   - [소통이 가능한 마이페이지](#판매자와-구매자가-소통이-가능한-mypage)  
 
 ## 제작 배경
@@ -25,7 +25,7 @@
 - 판매자는 벼룩시장을 개장할 일정과 장소를 선택한 후 예약한다.  
 ![noname2](https://user-images.githubusercontent.com/48707020/103914284-eec22f80-514c-11eb-8d94-c1ffaaf26872.png)  
 - 구매자는 벼룩시장 일정을 확인할 수 있다.  
-### Youtube API를 이용한 판매자의 물건 홍보 영상 포스팅(미완)
+### Youtube API를 이용한 판매자의 물건 홍보 영상 포스팅,미완
 ![noname4](https://user-images.githubusercontent.com/48707020/103914288-eff35c80-514c-11eb-88f8-227979688ef7.png) 
 ![noname5](https://user-images.githubusercontent.com/48707020/103914289-eff35c80-514c-11eb-9b6f-f77fd1a7c71c.png)  
 - 판매자는 자신의 물건 홍보 유튜브 영상을 포스팅할 수 있고, 좋아요를 받을 수 있다.  
